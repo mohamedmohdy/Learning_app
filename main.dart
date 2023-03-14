@@ -12,9 +12,9 @@ void main() {
 
 class learning_app extends StatelessWidget {
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp( //const : used const becaues make improve performance 
       debugShowCheckedModeBanner: false,
-      home: log_screen(),
+      home: log_screen(), //home This is the route that is displayed first when the application is started normally
     );
   }
 }
