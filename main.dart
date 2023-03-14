@@ -6,9 +6,8 @@ import 'asset/log_in_screen.dart';
 import 'asset/mempers.dart';
 import 'homepage.dart';
 
-void main() {
-  runApp(learning_app());
-}
+
+void main () => runApp(learning_app()); //this style code is arrow function
 
 class learning_app extends StatelessWidget {
   Widget build(BuildContext context) {
